@@ -19,9 +19,10 @@ const About = () => {
  const [userErr, setUserErr] = useState({})
  const id = params.id
 // console.log(id)
+
 useEffect(()=>{
-  
-axios.get("http://localhost:3005/jobs/"+id)
+  if (id) {
+    axios.get("http://localhost:3005/jobs/"+id)
 .then(res=>{
   //console.log(res)
   singleUserDetails = res.data ;
@@ -32,9 +33,12 @@ axios.get("http://localhost:3005/jobs/"+id)
   console.log(err)
 })
 
-
+  }
 
 },[id])
+
+
+
 function changeHandle(e) {
   setData({...data, [e.target.name]: e.target.value})
 }
