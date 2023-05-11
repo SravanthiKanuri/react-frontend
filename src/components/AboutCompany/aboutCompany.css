@@ -1,0 +1,77 @@
+body {
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+.about {
+    background-color:#123589;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+.bg-container {
+    height: 70vh;
+    background-image: url("https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.button {
+    height: 40px;
+    font-size: medium;
+    width: 140px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:#123589;
+    margin: 10px;
+    background-color: #f5ebe1;
+    color: #123589;
+}
+li {
+    margin-top: 20px;
+}
+
+img {
+    height: 15rem;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.hero-section {
+    color: white;
+}
+.designpart {
+    font-style: oblique;
+    font-size: medium;
+    word-spacing: 3px;
+}
+.card {
+    position: relative;
+}
+.card-image {
+    position: relative;
+    top: -10px;
+    left: -10px;
+
+}
+.footer {
+    background-color: #123589;
+    padding: 15px;
+    width: 100%;
+    margin-top: 3rem;
+    border-radius: 10px;
+  color: white;
+}
+.icon {
+    height: 400px;
+    width: 400px !important;
+}

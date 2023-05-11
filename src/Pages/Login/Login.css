@@ -1,0 +1,17 @@
+input {
+    height: 3rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+.button {
+    height: 30px;
+    width: 130px;
+    /* border-radius: 5px;
+    border-width: 1px; */
+    background-color: #6e26b7;
+    color: white;
+}
+label {
+    font-size: large; 
+    margin: 15px;
+}
